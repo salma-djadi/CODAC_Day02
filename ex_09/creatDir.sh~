@@ -1,0 +1,3 @@
+#!/bin/bash
+seq -f "ex_%04.0f" 1 $1 | xargs mkdir
+#mkdir -p -i "ex_{01..$1}"
